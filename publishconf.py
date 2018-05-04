@@ -10,7 +10,7 @@ import os
 # explicitly specify it as your config file.
 sys.path.append(os.curdir)
 
-SITEURL = ''
+SITEURL = 'https://sivaa.in'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -22,3 +22,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # DISQUS_SITENAME = ""
 # GOOGLE_ANALYTICS = ""
+
+TIMEZONE = 'Europe/Berlin'

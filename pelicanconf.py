@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = 'Sivasubramaniam Arunachalam'
 SITENAME = 'Sivasubramaniam Arunachalam'
 SITEURL = ''
@@ -41,3 +43,6 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
 }
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+THEME = os.path.join(BASE_DIR, 'theme')

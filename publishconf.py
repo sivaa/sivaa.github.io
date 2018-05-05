@@ -24,3 +24,11 @@ DELETE_OUTPUT_DIRECTORY = True
 # GOOGLE_ANALYTICS = ""
 
 TIMEZONE = 'Europe/Berlin'
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+}
+
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# THEME = os.path.join(BASE_DIR, 'theme')

@@ -29,6 +29,7 @@ TIMEZONE = 'Europe/Berlin'
 STATIC_PATHS = [
     'images',
     'extra/CNAME',
+    'extra/robots.txt',
 
     'images/favicon/favicon.ico',
     'images/favicon/android-chrome-144x144.png',
@@ -43,6 +44,7 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
+    'extra/robots.txt': {'path': 'robots.txt'},
 
     'images/favicon/favicon.ico': {'path': 'favicon.ico'},
     'images/favicon/android-chrome-144x144.png': {'path': 'android-chrome-144x144.png'},

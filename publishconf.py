@@ -48,6 +48,8 @@ EXTRA_PATH_METADATA = {
 
     'images/favicon/favicon.ico': {'path': 'favicon.ico'},
     'images/favicon/android-chrome-144x144.png': {'path': 'android-chrome-144x144.png'},
+    'images/favicon/android-chrome-192x192.png': {'path': 'android-chrome-192x192.png'},
+    'images/favicon/android-chrome-256x256.png': {'path': 'android-chrome-256x256.png'},
     'images/favicon/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
     'images/favicon/browserconfig.xml': {'path': 'browserconfig.xml'},
     'images/favicon/favicon-16x16.png': {'path': 'favicon-16x16.png'},
